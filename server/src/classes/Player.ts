@@ -1,4 +1,4 @@
-import { Player as IPlayer } from '../../../shared/types';
+import { Player as IPlayer } from '../shared/types';
 
 export class Player implements IPlayer {
   id: string;

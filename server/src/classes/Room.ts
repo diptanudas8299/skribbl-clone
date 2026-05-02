@@ -1,7 +1,7 @@
 import { Server } from 'socket.io';
 import { Player } from './Player';
 import { Game } from './Game';
-import { RoomSettings, Room as IRoom } from '../../../shared/types';
+import { RoomSettings, Room as IRoom } from '../shared/types';
 import { v4 as uuidv4 } from 'uuid';
 
 const DEFAULT_SETTINGS: RoomSettings = {

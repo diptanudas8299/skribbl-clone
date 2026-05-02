@@ -1,6 +1,6 @@
 import { Server } from 'socket.io';
 import { Player } from './Player';
-import { GameState, LeaderboardEntry } from '../../../shared/types';
+import { GameState, LeaderboardEntry } from '../shared/types';
 import { getRandomWords, generateHint } from '../utils/wordUtils';
 
 export class Game {

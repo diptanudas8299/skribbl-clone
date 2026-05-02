@@ -1,7 +1,7 @@
 import { Server, Socket } from 'socket.io';
 import { Room } from './Room';
 import { Player } from './Player';
-import { DrawStroke, ChatMessage } from '../../../shared/types';
+import { ChatMessage } from '../shared/types';
 import { v4 as uuidv4 } from 'uuid';
 
 export class MessageHandler {
