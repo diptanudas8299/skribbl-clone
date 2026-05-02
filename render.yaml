@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: skribbl-server
+    env: node
+    region: oregon
+    buildCommand: cd server && npm install && npm run build
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+      - key: CLIENT_URL
+        sync: false   # set this in Render dashboard to your Vercel URL
