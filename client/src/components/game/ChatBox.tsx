@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from 'react';
 import { Socket } from 'socket.io-client';
 import { useGameStore } from '../../store/gameStore';
-import { ChatMessage } from '@shared/types';
+import { ChatMessage } from '../../shared/types';
 
 interface Props { socket: Socket; isDrawer: boolean; }
 

@@ -1,6 +1,6 @@
 import { useRef, useEffect, useCallback } from 'react';
 import { Socket } from 'socket.io-client';
-import { DrawStroke } from '@shared/types';
+import { DrawStroke } from '../shared/types';
 import { useGameStore } from '../store/gameStore';
 
 interface UseCanvasOptions {

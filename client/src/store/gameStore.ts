@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Player, Room, GameState, ChatMessage } from '@shared/types';
+import { Player, Room, GameState, ChatMessage } from '../shared/types';
 
 interface GameStore {
   // Identity
